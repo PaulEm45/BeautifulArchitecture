@@ -45,13 +45,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:rgb(32, 71, 88)
+    color:rgb(32, 71, 88);
+    font-family: 'slabo', sans-serif;
 }
 
 /* Header */
 header {
     background-color: cadetblue;
     color:#ffe67c;
+    font-family: 'cousine', sans-serif;
 }
 
 /* Main Content */
