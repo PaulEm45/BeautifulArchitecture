@@ -59,6 +59,10 @@ header {
     z-index: 90;
     width: 100%;
     box-shadow: 0 3px 3px cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 h1 {
@@ -68,7 +72,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #ffe67ce;
+    border-bottom: 1px solid #ffe67c;
 }
 
 /* navbar style*/
@@ -81,6 +85,13 @@ nav {
     padding: 0 0.5em;
     text-align: right;
     display: none;
+    top: 100%;
+}
+/* nav toggle*/
+
+#nav-toggle:checked~nav {
+    display: block;
+    width: 50%;
 }
 
 #menu {
@@ -93,6 +104,18 @@ nav {
 #menu > li {
     margin-bottom: 0.5em;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: cadetblue;
+    color: #ffe67c;
+    height: auto;
+    position: fixed; 
+    overflow: auto; 
+  }
 
 header a {
     text-decoration: none;
