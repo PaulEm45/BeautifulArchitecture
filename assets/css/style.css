@@ -61,7 +61,19 @@ header {
     box-shadow: 0 3px 3px cadetblue;
 }
 
-/* Main Content */
+h1 {
+    font-family: 'cousine' sans-serif;
+    text-transform: uppercase;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+    /* Main Content */
 main {
     background-color:beige;
     flex: 1 0 auto;
