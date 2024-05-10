@@ -67,6 +67,17 @@ h1 {
     
 }
 
+#menu {
+    list-style-type: none;
+    text-size-adjust: 50px;
+    text-align: right;
+    letter-spacing: 0.5;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
