@@ -1,3 +1,37 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Slabo+27px&display=swap');
+
+.slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cousine-regular {
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cousine-bold {
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cousine-regular-italic {
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cousine-bold-italic {
+    font-family: "Cousine", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
 /* asterisk wildcard selector */
 
 * {
@@ -11,12 +45,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:darkgreen
+    color:rgb(32, 71, 88)
 }
 
 /* Header */
 header {
     background-color: cadetblue;
+    color:#ffe67c;
 }
 
 /* Main Content */
