@@ -115,6 +115,7 @@ ul {
     height: auto;
     position: fixed; 
     overflow: auto; 
+    word-break: keep-all;
   }
 
 header a {
