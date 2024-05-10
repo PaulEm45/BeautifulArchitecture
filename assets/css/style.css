@@ -54,6 +54,11 @@ header {
     background-color: cadetblue;
     color:#ffe67c;
     font-family: 'cousine', sans-serif;
+    padding: 0 0.5rem;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+    box-shadow: 0 3px 3px cadetblue;
 }
 
 /* Main Content */
