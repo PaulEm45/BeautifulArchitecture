@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meat data and tags-->
+    <meta name="description" content="Beautiful Architecture, a site for people who love beautiful buildings">
+    <meta name="keywords"
+        content="architecture, la-sagrada-famila, st-pauls, neuschwanstein-castle, osaka-castle, buildings, beautiful-architecture, golden-ratio">
     <!--title-->
     <title>Beautiful Architecture</title>
     <!--favicon-->
@@ -14,25 +18,61 @@
 
 <body>
     <!--header-->
-    <a href="index.html"><h1 id="logo">Beautiful Architecture</h1></a>
-    <!--nav bar buttons-->
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">La Sagrada Famila</a>
-            </li>
-            <li>
-                <a href="st-pauls.html">St Pauls Cathedral</a>
-            </li>
-            <li>
-                <a href="osaka.html">Osaka Castle</a>
-            </li>
-            <li>
-                <a href="neuschwanstein.html">Neuschwanstein Castle</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <a href="index.html" class="active">
+            <h1 id="logo">Beautiful Architecture</h1>
+        </a>
+        <!--nav checkbox-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label" name="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <!--nav bar buttons-->
+        <nav>
+            <ul id="menu" style="right: 0">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="st-pauls.html">St Pauls Cathedral</a>
+                </li>
+                <li>
+                    <a href="osaka.html">Osaka Castle</a>
+                </li>
+                <li>
+                    <a href="neuschwanstein.html">Neusch-wanstein Castle</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--main content-->
+    <main>
+        <h1>Germany's Iconic Castle</h1>
 
+        <h2>Neuschwanstein Castle</h2>
+
+        <h3>History</h3>
+        <p>
+
+        </p>
+    </main>
+    <!--footer-->
+    <footer class="slabo-27px-regular">
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com" target="-blank" rel="noopener"
+                    aria-label="Visit our Facebook page( opens in a new tab.)"></a><i
+                    class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li><a href="https://www.instagram.com" target="-blank" rel="noopener"
+                    aria-label="Visit our Instagram page( opens in a new tab.)"></a><i
+                    class="fa-brands fa-square-instagram"></i>
+            </li>
+            <li><a href="https://www.twitter.com" target="-blank" rel="noopener"
+                aria-label="Visit our Twitter page( opens in a new tab.)"></a><i class="fa-brands fa-square-twitter"></i>
+        </li>
+        </ul>
+    </footer>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/5250aa7bf1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
