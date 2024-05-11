@@ -72,7 +72,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #ffe67c;
+    border-bottom: none;
 }
 
 /* navbar style*/
@@ -138,6 +138,7 @@ header a {
 main {
     background-color: beige;
     flex: 1 0 auto;
+    margin-top: 74px;
 
 }
 
@@ -170,5 +171,14 @@ footer {
 
     .active {
         border-bottom: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        margin: 0 1rem;
+    }
+
+    main {
+        margin-top: 40px;
     }
 }
