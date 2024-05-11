@@ -78,7 +78,7 @@ h1 {
 /* navbar style*/
 
 nav {
-    position: absolute;
+    position: relative;
     background-color: cadetblue;
     width: 100%;
     box-shadow: 0 3px 3px cadetblue;
@@ -116,7 +116,7 @@ nav {
     margin-bottom: 0.5em;
 }
 
-ul {
+nav>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
