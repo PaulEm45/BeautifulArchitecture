@@ -182,3 +182,11 @@ footer {
         margin-top: 40px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffe67c;
+    }
+    
+    
+}
