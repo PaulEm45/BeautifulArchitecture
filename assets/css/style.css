@@ -5,32 +5,32 @@
     font-family: "Slabo 27px", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .cousine-regular {
+.cousine-regular {
     font-family: "Cousine", monospace;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .cousine-bold {
+}
+
+.cousine-bold {
     font-family: "Cousine", monospace;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .cousine-regular-italic {
+}
+
+.cousine-regular-italic {
     font-family: "Cousine", monospace;
     font-weight: 400;
     font-style: italic;
-  }
-  
-  .cousine-bold-italic {
+}
+
+.cousine-bold-italic {
     font-family: "Cousine", monospace;
     font-weight: 700;
     font-style: italic;
-  }
-  
+}
+
 
 /* asterisk wildcard selector */
 
@@ -45,14 +45,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:rgb(32, 71, 88);
+    color: rgb(32, 71, 88);
     font-family: 'slabo', sans-serif;
 }
 
 /* Header */
 header {
     background-color: cadetblue;
-    color:#ffe67c;
+    color: #ffe67c;
     font-family: 'cousine', sans-serif;
     padding: 0 0.5rem;
     position: fixed;
@@ -66,9 +66,9 @@ header {
 }
 
 h1 {
-    font-family: 'cousine' sans-serif;
+    font-family: 'cousine'sans-serif;
     text-transform: uppercase;
-    
+
 }
 
 .active {
@@ -87,6 +87,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* nav toggle*/
 
 #nav-toggle:checked~nav {
@@ -96,7 +97,7 @@ nav {
 
 #nav-toggle {
     display: none;
-    
+
 }
 
 .nav-toggle-label {
@@ -110,7 +111,7 @@ nav {
     letter-spacing: 0.5;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
 }
 
@@ -118,14 +119,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: fit-content;
     background-color: cadetblue;
     color: #ffe67c;
-    height: auto;
-    position: fixed; 
-    overflow: auto; 
+    height: fit-content;
+    position: relative;
+    overflow: auto;
     word-break: keep-all;
-  }
+}
 
 header a {
     text-decoration: none;
@@ -133,9 +134,9 @@ header a {
 }
 
 
-    /* Main Content */
+/* Main Content */
 main {
-    background-color:beige;
+    background-color: beige;
     flex: 1 0 auto;
 
 }
@@ -143,4 +144,31 @@ main {
 /* Footer */
 footer {
     background-color: #ffe67c;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .active {
+        border-bottom: none;
+    }
 }
