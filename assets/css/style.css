@@ -148,6 +148,15 @@ footer {
     background-color: #ffe67c;
 }
 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    list-style-type: none;
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
