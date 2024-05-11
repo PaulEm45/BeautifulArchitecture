@@ -94,6 +94,15 @@ nav {
     width: 50%;
 }
 
+#nav-toggle {
+    display: none;
+    
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 #menu {
     list-style-type: none;
     text-size-adjust: 50px;

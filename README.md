@@ -3,3 +3,10 @@
 <h2>The idea<h2>
 
 <p>This website is to give the user a brief look into the world of architecture that uses the golden ratio, thus most buildings are older when this principle was used to its upmost. I decided to base the website around 4 buildings that i like, and we will dive into their history, golden ratio and attractions per year, my aim is to add images with text and a map function to give the user a location of the building. i may also incorperate a feedback form with validation. The footer will then contain links to the buildings offical webpage.<p>
+
+<h2>Features</h2>
+
+<ul>
+    <li>Header</li>
+
+    Within the header section i have tried to create a functional and responsive header that includes a 'checkbox' function. The header is to comprise of the site name (which will also be a home link) and 3 links to other pages. intinally this seemed to be working fine but i have ran into a few problems along the way when changing the header for responsive design.
