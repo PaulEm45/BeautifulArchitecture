@@ -147,18 +147,21 @@ main {
     height: 700px;
     width: 100%;
     background: url(../images/BA/images/la\ Sagrada\ Famila.webp) no-repeat center center/cover;
+    position: relative;
 }
 
 #st-pauls {
     height: 700px;
     width: 100%;
     background: url(../images/BA/images/1._St._Paul_s_Cathedral_UK-min.jpg.mst.webp) no-repeat center center/cover;
+    position: relative;
 }
 
 #osaka {
     height: 700px;
     width: 100%;
     background: url(../images/BA/images/Osaka\ Castle.webp) no-repeat center center/cover;
+    position: relative;
 }
 
 #castle {
@@ -172,7 +175,7 @@ main {
     background-color: rgba(95, 158, 160, 0.3);
     font-size: 90%;
     position: absolute;
-    top: 120px;
+    top: 50px;
     width: 60%;
     min-height: 200px;
     border-radius: 20%;
@@ -181,10 +184,25 @@ main {
     padding-left: 8px;
 }
 
-#cover-text > h1 {
+#cover-text>h1 {
     color: rgba(255, 230, 124, 0.9);
 }
 
+#title-famila {
+    background-color: rgba(95, 158, 160, 0.3);
+    font-size: 100%;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#title-famila {
+    color: rgba(255, 230, 124, 0.9);
+}
 /* Footer */
 footer {
     background-color: #ffe67c;
@@ -246,8 +264,24 @@ footer {
 
     }
 
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #ffe67c;
-        }
+    #cover-text {
+        width: 430px;
+        top: 300px;
+        text-align: center;
+        font-size: 110%;
+        border-radius: 20%;
+        
     }
+
+    #cover-text>h1 {
+        color: rgba(255, 230, 124, 0.9);
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffe67c;
+    }
+}
