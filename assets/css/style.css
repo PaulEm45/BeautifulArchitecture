@@ -137,10 +137,32 @@ header a {
 
 /* Main Content */
 main {
-    background-color: beige;
     flex: 1 0 auto;
     margin-top: 74px;
+}
 
+#Famila {
+    height: 700px;
+    width: 100%;
+    background: url(../images/BA/images/la\ Sagrada\ Famila.webp) no-repeat center center/cover;
+}
+
+#st-pauls {
+    height: 700px;
+    width: 100%;
+    background: url(../images/BA/images/1._St._Paul_s_Cathedral_UK-min.jpg.mst.webp) no-repeat center center/cover;
+}
+
+#osaka {
+    height: 700px;
+    width: 100%;
+    background: url(../images/BA/images/Osaka\ Castle.webp) no-repeat center center/cover;
+}
+
+#castle {
+    height: 700px;
+    width: 100%;
+    background: url(../images/BA/images/10._Neuschwanstein.webp) no-repeat center center/cover;
 }
 
 /* Footer */
