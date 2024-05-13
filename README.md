@@ -10,3 +10,11 @@
     <li>Header</li>
 
     Within the header section i have tried to create a functional and responsive header that includes a 'checkbox' function. The header is to comprise of the site name (which will also be a home link) and 3 links to other pages. intinally this seemed to be working fine but i have ran into a few problems along the way when changing the header for responsive design.
+
+</ul>
+
+<h2>Fixes</h2>
+
+<ul>
+    <li>I have being having some trouble with my code with links not working properly, i have now rectified this as the error was a keystroke error, i had put -blank insted of _blank and had also missed the / from the end of the url and that closed the html in the wrong place.... durning this part i also found out the quick comment shortcut of CTRL + / to turn any code into a comment.</li>
+</ul>
