@@ -204,6 +204,20 @@ main {
     color: rgba(255, 230, 124, 0.9);
 }
 
+#cover-text-st-pauls {
+    background-color: rgba(95, 158, 160, 0.3);
+    font-size: 90%;
+    position: absolute;
+    top: 80px;
+    width: 60%;
+    min-height: 200px;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 8px;
+    color: #ffe67c;
+}
+
 #title-st-pauls{
     background-color: rgba(95, 158, 160, 0.3);
     font-size: 100%;
