@@ -11,6 +11,10 @@
 
     Within the header section i have tried to create a functional and responsive header that includes a 'checkbox' function. The header is to comprise of the site name (which will also be a home link) and 3 links to other pages. intinally this seemed to be working fine but i have ran into a few problems along the way when changing the header for responsive design.
 
+    <li> Images</li>
+
+    The images section have being giving me a headache especially when upscalling them to larger screens, i decided to use each pages image as a hero image and then overlay text, this way i can have a bolder description, whilst keeping the user engaged. this means that the title and brief history of the page is displayed on and around the main image when in each screen size, extra content will be added in the main section.
+
 </ul>
 
 <h2>Fixes</h2>

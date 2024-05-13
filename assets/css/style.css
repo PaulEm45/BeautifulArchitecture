@@ -49,6 +49,14 @@ body {
     font-family: 'slabo', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'cousine'sans-serif;
+    text-transform: uppercase;
+
+}
+
 /* Header */
 header {
     background-color: cadetblue;
@@ -62,12 +70,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-}
-
-h1 {
-    font-family: 'cousine'sans-serif;
-    text-transform: uppercase;
 
 }
 
@@ -163,6 +165,24 @@ main {
     height: 700px;
     width: 100%;
     background: url(../images/BA/images/10._Neuschwanstein.webp) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(95, 158, 160, 0.3);
+    font-size: 90%;
+    position: absolute;
+    top: 120px;
+    width: 60%;
+    min-height: 200px;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+#cover-text > h1 {
+    color: rgba(255, 230, 124, 0.9);
 }
 
 /* Footer */
@@ -218,12 +238,16 @@ footer {
     main {
         margin-top: 40px;
     }
-}
 
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #ffe67c;
+    #Famila {
+        height: 1800px;
+        width: 100%;
+
+
     }
-    
 
-}
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #ffe67c;
+        }
+    }
