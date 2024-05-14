@@ -44,73 +44,59 @@
             </ul>
         </nav>
     </header>
-    <!--main content-->
     <main>
-        <section id="Famila">
-            <div id="cover-text">
-                <h1>Lets's take a look at some very beautiful buildings, their history and attraction.</h1>
-            </div>
-            <div id="title-famila">
-                <h2>La Sagrada Famila</h2>
-            </div>
-        </section>
+        <h1 id="title-main">Feedback Page</h1>
 
-        <h3 id="title-main">History</h3>
-
-        <br>
-
-        <p>Originally designed in 1882 by Francisco de Paula del Villar, Antoni Gaudi took on the project in 1883, with
-            the vision of creating a church for the future.
-            In 1885 the Crypt was built and the first mass was held, by 1891 the work on the St. Barnabus nativity
-            facade had begun.
-            The work on the bell tower was the only tower that Gaudi would see finished in 1925, as he continued to work
-            on the project until his death in 1926.</p>
-        <br>
-
-        <p>Only ten years later La Sagrada Famila was vandelised during the spanish civil war.
-            Then in 1936 after recovering working material from Gaudi`s workshop the project was taken over by Francesc
-            de Paula Quintana.</p>
-
-        <p>The project in the subsequent years has passed along to many different architects all with one singular goal
-            in mind...completion.</p>
-        <br>
-
-        <hr>
-
-        <br>
-
-        <h3 id="title-main">The Golden Ratio</h3>
-
-        <section id="golden-ratio">
-
-            <img src="assets/images/BA/images/Golden-ratio-grid.webp" alt="an image of the golden ratio"
-                class="responsive">
-
-        </section>
-
-        <p>The golden ratio, also known as the golden number, golden proportion or the divine proportion, is a ratio
-            between two numbers that equals approximately 1.618. Usually written as the Greek letter phi, it is strongly
-            associated with the Fibonacci sequence, a series of numbers wherein each number is added to the last.</p>
-
-        <br>
-
-        <p>The golden ratio of La Sagrada famila is 43.23%</p>
-
-        <br>
-
-        <hr>
-
-        <br>
-
-        <h3 id="title-main">Visitor Numbers</h3>
-
-        <br>
-
-        <p> The visitor numbers for La Sagrada Famila are approximately 3,000,000 per year...thats an amazing one visitor every 10.5 seconds!</p>
-
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="continent">Continent</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="continent" name="continent">
+                            <option value="europe">Europe</option>
+                            <option value="namerica"> N America</option>
+                            <option value="samerica">S America</option>
+                            <option value="asia">Asia</option>
+                            <option value="africa">Africa</option>
+                            <option value="austrailia">Austrailia</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
 
     </main>
-    <!--footer-->
     <footer class="slabo-27px-regular">
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
@@ -128,8 +114,8 @@
         </ul>
         <ul id="feedback">
             <li>
-            <a href="form.html" target="_blank">Feedback</a>
-            </li>    
+                <a href="form.html" target="_blank">Feedback</a>
+            </li>
         </ul>
     </footer>
 
