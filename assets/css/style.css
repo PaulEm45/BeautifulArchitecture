@@ -343,6 +343,20 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
+
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+  }
+
+  .google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+  }
 /* Footer */
 footer {
     background-color: #ffe67c;
