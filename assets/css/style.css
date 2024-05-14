@@ -152,7 +152,7 @@ footer a {
 /* Main Content */
 main {
     flex: 1 0 auto;
-    margin-top: 74px;
+    margin-top: 90px;
 }
 
 #Famila {
@@ -280,6 +280,7 @@ main {
 
 #title-main {
     text-align: center;
+    color: cadetblue;
 }
 
 .responsive {
@@ -305,8 +306,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: cadetblue;
+    color: #ffe67c;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
