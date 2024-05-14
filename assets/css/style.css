@@ -266,6 +266,13 @@ main {
     color: rgba(255, 230, 124, 0.9);
 }
 
+#golden-ratio {
+    height: 200px;
+    width: 400px;
+    background-image: url(../images/BA/images/Golden-ratio-grid.webp) center center/justify;
+    position: absolute;
+}
+
 /* Footer */
 footer {
     background-color: #ffe67c;
