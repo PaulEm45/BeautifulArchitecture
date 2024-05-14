@@ -136,6 +136,14 @@ header a {
     color: inherit;
 }
 
+hr {
+    border: 2px solid #ffe67c;
+    border-radius: 7.5px;
+    max-width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Main Content */
 main {
@@ -266,13 +274,18 @@ main {
     color: rgba(255, 230, 124, 0.9);
 }
 
-#golden-ratio {
-    height: 200px;
-    width: 400px;
-    background-image: url(../images/BA/images/Golden-ratio-grid.webp) center center/justify;
-    position: absolute;
+#title-main {
+    text-align: center;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    max-height: 248px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Footer */
 footer {
     background-color: #ffe67c;
