@@ -144,6 +144,11 @@ hr {
     margin-right: auto;
 }
 
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 footer a {
     text-decoration: none;
     color: cadetblue;
@@ -342,6 +347,10 @@ input[type=text], select, textarea {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .visitor {
+    text-align: center;
   }
 
   .google-map {
