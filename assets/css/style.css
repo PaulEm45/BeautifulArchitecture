@@ -52,8 +52,9 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'cousine'sans-serif;
+    font-family: 'slabo', sans-serif;
     text-transform: uppercase;
+    color: #ffe67c;
 
 }
 
@@ -109,9 +110,9 @@ nav {
 
 #menu {
     list-style-type: none;
-    text-size-adjust: 50px;
+    font-size-adjust: inherit;
     text-align: right;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
 }
 
 #menu>li {
@@ -235,7 +236,7 @@ main {
     color: #ffe67c;
 }
 
-#title-st-pauls{
+#title-st-pauls {
     background-color: rgba(95, 158, 160, 0.3);
     font-size: 100%;
     position: absolute;
@@ -283,10 +284,21 @@ main {
     color: rgba(255, 230, 124, 0.9);
 }
 
-#title-main {
+#title-history {
     text-align: center;
     color: cadetblue;
 }
+
+#title-ratio {
+    text-align: center;
+    color: cadetblue;
+}
+
+#title-visitor {
+    text-align: center;
+    color: cadetblue;
+}
+
 
 .responsive {
     width: 100%;
@@ -297,20 +309,22 @@ main {
     margin-right: auto;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-  }
-  
-  label {
+}
+
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     background-color: cadetblue;
     color: #ffe67c;
     padding: 12px 20px;
@@ -318,54 +332,55 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  .container {
+}
+
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
-  
-  .col-25 {
+}
+
+.col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
-  }
-  
-  .col-75 {
+}
+
+.col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
-  }
-  
+}
 
-  .row::after {
+
+.row::after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .visitor {
+.visitor {
     text-align: center;
-  }
+}
 
-  .google-map {
+.google-map {
     padding-bottom: 50%;
     position: relative;
-  }
+}
 
-  .google-map iframe {
+.google-map iframe {
     height: 100%;
     width: 100%;
     left: 0;
     right: 0;
     position: absolute;
 
-  }
+}
+
 /* Footer */
 footer {
     background-color: #ffe67c;
@@ -386,13 +401,15 @@ footer {
 }
 
 #feedback {
-color: cadetblue;
-text-align: center;
-font-family: 'cousine', sans-serif;
-font-size: xx-large;
-list-style-type: none;
-text-decoration: none;
+    color: cadetblue;
+    text-align: center;
+    font-family: 'cousine', sans-serif;
+    font-size: xx-large;
+    list-style-type: none;
+    text-decoration: none;
 }
+
+
 
 @media screen and (min-width: 768px) {
     nav {
@@ -442,7 +459,7 @@ text-decoration: none;
         text-align: center;
         font-size: 110%;
         border-radius: 20%;
-        
+
     }
 
     #cover-text>h1 {
