@@ -92,15 +92,15 @@
 
 <h2>Deployment</h2>
 
+<h3>Via Gitpod</h3>
+
+<h3>Via Github pages</h3>
+
 <p>The site was deployed to GitHub pages. The steps to deploy are as follows:
     1.In the GitHub repository, navigate to the Settings tab
     2.From the source section drop-down menu, select the Master Branch
     3.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     4. </p>
-
-<h3>Via Gitpod</h3>
-
-<h3>Via Github pages</h3>
 
 <h2>Credits</h2>
 
