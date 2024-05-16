@@ -164,28 +164,28 @@ main {
 #Famila {
     height: 700px;
     width: 100%;
-    background: url(../images/BA/images/la\ Sagrada\ Famila.webp) no-repeat center center/cover;
+    background: url(../images/ba/images/la-sagrada-famila.webp) no-repeat center center/cover;
     position: relative;
 }
 
 #st-pauls {
     height: 700px;
     width: 100%;
-    background: url(../images/BA/images/1._St._Paul_s_Cathedral_UK-min.jpg.mst.webp) no-repeat center center/cover;
+    background: url(../images/ba/images/st-pauls-cathedral.webp) no-repeat center center/cover;
     position: relative;
 }
 
 #osaka {
     height: 700px;
     width: 100%;
-    background: url(../images/BA/images/Osaka\ Castle.webp) no-repeat center center/cover;
+    background: url(../images/ba/images/osaka-castle.webp) no-repeat center center/cover;
     position: relative;
 }
 
 #castle {
     height: 700px;
     width: 100%;
-    background: url(../images/BA/images/10._Neuschwanstein.webp) no-repeat center center/cover;
+    background: url(../images/ba/images/neuschwanstein.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -409,6 +409,21 @@ footer {
     text-decoration: none;
 }
 
+@media screen and (max-width: 280px){
+    nav {
+        position: relative;
+        background-color: cadetblue;
+        width: fit-content;
+        box-shadow: 0 3px 3px cadetblue;
+        padding: 0 0.5em;
+        text-align: right;
+        display: none;
+        top: 100%;
+
+    }
+
+}
+    
 
 
 @media screen and (min-width: 768px) {
