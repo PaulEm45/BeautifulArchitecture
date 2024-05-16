@@ -303,6 +303,11 @@ main {
     color: #2f5050;
 }
 
+#title-main {
+    text-align: center;
+    color: #2f5050;
+}
+
 
 .responsive {
     width: 100%;
@@ -316,6 +321,14 @@ main {
 input[type=text],
 select,
 textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
