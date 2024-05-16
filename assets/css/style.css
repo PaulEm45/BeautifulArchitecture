@@ -45,7 +45,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(32, 71, 88);
+    color: #2f5050;
     font-family: 'slabo', sans-serif;
 }
 
@@ -60,14 +60,14 @@ h3 {
 
 /* Header */
 header {
-    background-color: cadetblue;
+    background-color: #2f5050;
     color: #ffe67c;
     font-family: 'cousine', sans-serif;
     padding: 0 0.5rem;
     position: fixed;
     z-index: 90;
     width: 100%;
-    box-shadow: 0 3px 3px cadetblue;
+    box-shadow: 0 3px 3px #2f5050;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -81,10 +81,11 @@ header {
 /* navbar style*/
 
 nav {
-    position: relative;
-    background-color: cadetblue;
+    position: absolute;
+    background-color: #2f5050;
     width: 100%;
-    box-shadow: 0 3px 3px cadetblue;
+    right: 0;
+    box-shadow: 0 3px 3px #2f5050;
     padding: 0 0.5em;
     text-align: right;
     display: none;
@@ -105,13 +106,16 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-right: 10px;
 
 }
+
+
 
 #menu {
     list-style-type: none;
     font-size-adjust: inherit;
-    text-align: right;
+    text-align: left;
     letter-spacing: 0.5px;
 }
 
@@ -124,7 +128,7 @@ nav>ul {
     margin: 0;
     padding: 0;
     width: fit-content;
-    background-color: cadetblue;
+    background-color: #2f5050;
     color: #ffe67c;
     height: fit-content;
     position: relative;
@@ -152,7 +156,7 @@ p {
 
 footer a {
     text-decoration: none;
-    color: cadetblue;
+    color: #2f5050;
 }
 
 /* Main Content */
@@ -190,7 +194,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 90%;
     position: absolute;
     top: 50px;
@@ -203,11 +207,11 @@ main {
 }
 
 #cover-text>h1 {
-    color: rgba(255, 230, 124, 0.9);
+    color: #ffe77cb9;
 }
 
 #title-famila {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 100%;
     position: absolute;
     bottom: 10px;
@@ -219,11 +223,11 @@ main {
 }
 
 #title-famila {
-    color: rgba(255, 230, 124, 0.9);
+    color: #ffe77cb9;
 }
 
 #cover-text-st-pauls {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 90%;
     position: absolute;
     top: 80px;
@@ -237,7 +241,7 @@ main {
 }
 
 #title-st-pauls {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 100%;
     position: absolute;
     bottom: 10px;
@@ -249,11 +253,11 @@ main {
 }
 
 #title-st-pauls {
-    color: rgba(255, 230, 124, 0.9);
+    color: #ffe77cb9;
 }
 
 #title-osaka {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 100%;
     position: absolute;
     bottom: 10px;
@@ -265,11 +269,11 @@ main {
 }
 
 #title-osaka {
-    color: rgba(255, 230, 124, 0.9);
+    color: #ffe77cb9;
 }
 
 #title-germany {
-    background-color: rgba(95, 158, 160, 0.3);
+    background-color: #2f505046;
     font-size: 100%;
     position: absolute;
     bottom: 10px;
@@ -281,22 +285,22 @@ main {
 }
 
 #title-germany {
-    color: rgba(255, 230, 124, 0.9);
+    color: #ffe77cb9;
 }
 
 #title-history {
     text-align: center;
-    color: cadetblue;
+    color: #2f5050;
 }
 
 #title-ratio {
     text-align: center;
-    color: cadetblue;
+    color: #2f5050;
 }
 
 #title-visitor {
     text-align: center;
-    color: cadetblue;
+    color: #2f5050;
 }
 
 
@@ -325,7 +329,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: cadetblue;
+    background-color: #2f5050;
     color: #ffe67c;
     padding: 12px 20px;
     border: none;
@@ -462,7 +466,7 @@ footer {
     }
 
     #cover-text>h1 {
-        color: rgba(255, 230, 124, 0.9);
+        color: #ffe77cb9;
     }
 }
 
