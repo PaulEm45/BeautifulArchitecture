@@ -409,22 +409,6 @@ footer {
     text-decoration: none;
 }
 
-@media screen and (max-width: 280px){
-    nav {
-        position: relative;
-        background-color: cadetblue;
-        width: fit-content;
-        box-shadow: 0 3px 3px cadetblue;
-        padding: 0 0.5em;
-        text-align: right;
-        display: none;
-        top: 100%;
-
-    }
-
-}
-    
-
 
 @media screen and (min-width: 768px) {
     nav {
