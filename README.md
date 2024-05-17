@@ -100,12 +100,27 @@
     1.In the GitHub repository, navigate to the Settings tab
     2.From the source section drop-down menu, select the Master Branch
     3.Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-    4. </p>
+    4.The live link is https://paulem45.github.io/BeautifulArchitecture/ </p>
 
 <h2>Credits</h2>
 
-<h2>Fixes</h2>
+<h3>Media</h3>
 
-<ul>
-    <li>I have being having some trouble with my code with links not working properly, i have now rectified this as the error was a keystroke error, i had put -blank insted of _blank and had also missed the / from the end of the url and that closed the html in the wrong place.... durning this part i also found out the quick comment shortcut of CTRL + / to turn any code into a comment.</li>
-</ul>
+<p>For the image media i used two media avenues;
+1.https://sagradafamilia.org/en/ for the opening image.
+and 
+2. https://images.google.co.uk/ for all subsequent images</p>
+
+<h3>Icons and Typeorgraphy</h3>
+
+<p>The icons were from https://fontawesome.com/</p>
+
+<p>The fonts were from https://fonts.google.com/</p>
+
+<h3>Main Content</h3>
+
+<p>I used https://www.wikipedia.org/ for background information and history for the content</p>
+
+<h3>Code and help</h3>
+
+<p>For help with code i used https://www.w3schools.com/ and also the Love running and coders club content from Code-Insitute.</p>
