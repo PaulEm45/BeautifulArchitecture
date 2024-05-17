@@ -74,6 +74,10 @@
 
 <img>
 
+<p>Devtools - Lighthouse</p>
+
+<img>
+
 <h3>Test Cases</h3>
 
 <p>When i first ran the html through the W3C Validation a few error popped up mainly linked to grammer and missing/extra parts put into the code</p>
@@ -93,6 +97,8 @@
 <h2>Deployment</h2>
 
 <h3>Via Gitpod</h3>
+
+<p>The site is available via https://paulem45-beautifularchi-757qa9u2rnk.ws-eu114.gitpod.io/</p>
 
 <h3>Via Github pages</h3>
 
