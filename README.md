@@ -34,13 +34,18 @@
 
 <p>Within the header section i have tried to create a functional and responsive header that includes a navbar. The header is to comprise of the site name (which will also be a home link) and 3 links to other pages. The navbar is responsive when scaling to diffent screens and in the mobile and tablet view the navbar dissapears to give a clickable 'burger' icon. The colours on the header and navbar give a nice contrast that i have checked work both well in high light and low light. The header and navbar are visable on all pages of the site and stay at the top of the page when scrolling down.</p>
 
+![Header and landing page image](/readme-documentation/readme-images/landing-page.png)
+
 <h3>Main Content</h3>
 
 <p>The content for each page is only slightly different on each page, in regards to the history of the buildings, each page has a title and a buzzword caption to lead the user in. All pages include a seperation location map for where the build is situated.</p>
 
+![Main-content image](/readme-documentation/readme-images/main-content.png)
 <h3>Footer</h3>
 
 <p>The footer diplays social media icons and also a 'contact us' link where the user is able to give a review or feedback that requires them to use an email address.</p>
+
+![Map and footer image](/readme-documentation/readme-images/map-footer.png)
 
 <h3>Images</h3>
 
@@ -68,15 +73,15 @@
 
 <p>HTML-No errors were returned when passing through the official W3C validator.</p>
 
-<img>
+![Html Validation Check image](/readme-documentation/readme-images/html-val.png)
 
 <p>CSS-No errors were found when passing through the official (Jigsaw) validator</p>
 
-<img>
+![CSS Validation Check image](/readme-documentation/readme-images/w3c-val.png)
 
 <p>Devtools - Lighthouse</p>
 
-<img>
+![Lighthouse Score Image](/readme-documentation/readme-images/lighthouse-val.png)
 
 <h3>Test Cases</h3>
 
